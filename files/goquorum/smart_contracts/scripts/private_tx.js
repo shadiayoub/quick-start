@@ -5,7 +5,7 @@ const Web3Quorum = require('web3js-quorum');
 
 // WARNING: the keys here are demo purposes ONLY. Please use a tool like Orchestrate or EthSigner for production, rather than hard coding private keys
 const { tessera, quorum } = require("./keys.js");
-const chainId = 1337;
+const chainId = 1342;
 // abi and bytecode generated from simplestorage.sol:
 // > solcjs --bin --abi simplestorage.sol
 const contractJsonPath = path.resolve(__dirname, '../','contracts','SimpleStorage.json');

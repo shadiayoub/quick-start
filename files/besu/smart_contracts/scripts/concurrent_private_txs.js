@@ -4,7 +4,7 @@ const Tx = require("ethereumjs-tx");
 const PromisePool = require("async-promise-pool");
 const { tessera, besu } = require("./keys.js");
 
-const chainId = 1337;
+const chainId = 1332;
 const web3 = new Web3Quorum(new Web3(besu.member1.url), chainId);
 
 /*
